@@ -4,12 +4,11 @@
     {
         static void Main()
         {
-            Start();
-        }
+            Actor debug = new Actor();
+            Console.WriteLine(debug.ToString());
 
-        static void Start()
-        {
-            Console.WriteLine("hello");
+            Human player = new Human("player", 2);
+            Console.WriteLine(player.ToString());
         }
     }
 }
